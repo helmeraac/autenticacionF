@@ -1,0 +1,139 @@
+{
+	"id": "d4319712-90ad-1435-d098-70dc6bdfb664",
+	"name": "versionFinal",
+	"description": "",
+	"order": [
+		"fbcb6cee-992a-9df1-8a0c-b648d4ddfa95",
+		"43855bb9-36c6-5a79-b543-7414e1fb20e9",
+		"26285b57-d72f-1720-e1a3-87caddb9a8ef",
+		"de470e7a-e365-e020-2099-5cc3a4162326"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1505967917419,
+	"owner": "1758493",
+	"public": false,
+	"requests": [
+		{
+			"id": "26285b57-d72f-1720-e1a3-87caddb9a8ef",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMywiZXhwIjoxNTA2MjI3MzAxfQ.1wVpYH_rXF2-QVhJ0hfLxSj07afRiTYSfO0tTted-iM\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMywiZXhwIjoxNTA2MjI3MzAxfQ.1wVpYH_rXF2-QVhJ0hfLxSj07afRiTYSfO0tTted-iM",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": " http://localhost:3000/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506141416294,
+			"name": " http://localhost:3000/items",
+			"description": "",
+			"collectionId": "d4319712-90ad-1435-d098-70dc6bdfb664",
+			"responses": [],
+			"rawModeData": "\n{\"name\":\"item1\",\"description\":\"texto-largo\"}\n"
+		},
+		{
+			"id": "43855bb9-36c6-5a79-b543-7414e1fb20e9",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMywiZXhwIjoxNTA2MjI3MzAxfQ.1wVpYH_rXF2-QVhJ0hfLxSj07afRiTYSfO0tTted-iM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMywiZXhwIjoxNTA2MjI3MzAxfQ.1wVpYH_rXF2-QVhJ0hfLxSj07afRiTYSfO0tTted-iM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": " http://localhost:3000/test",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506141406820,
+			"name": " http://localhost:3000/items",
+			"description": "",
+			"collectionId": "d4319712-90ad-1435-d098-70dc6bdfb664",
+			"responses": []
+		},
+		{
+			"id": "de470e7a-e365-e020-2099-5cc3a4162326",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": " http://localhost:3000/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506807849516,
+			"name": " http://localhost:3000/users",
+			"description": "",
+			"collectionId": "d4319712-90ad-1435-d098-70dc6bdfb664",
+			"responses": [],
+			"rawModeData": "\n{ \n\t\"user\": \n\t{\t\n\t\t\"first_name\":\"Andrea\", \"last_name\":\"garcia\",\"email\":\"andrea@mail.com\",\"age\":22,\"password\":\"123456789\", \"password_confirmation\": \"123456789\"\n\t}\n}"
+		},
+		{
+			"id": "fbcb6cee-992a-9df1-8a0c-b648d4ddfa95",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": " http://localhost:3000/authenticate",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506141425123,
+			"name": " http://localhost:3000/authenticate",
+			"description": "",
+			"collectionId": "d4319712-90ad-1435-d098-70dc6bdfb664",
+			"responses": [],
+			"rawModeData": "{\"email\":\"andrea@mail.com\",\"password\":\"123456789\"}"
+		}
+	]
+}
